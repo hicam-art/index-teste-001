@@ -1,26 +1,9 @@
 .container{
-    background-color: rgba(10, 102, 221, 0.281);
+  background-color: rgba(180, 182, 184, 0.295);
    width: 100%;
-   height:120vh;
+   height:145vh;
  
   
-}
-.col{
-  
-   width: 100%;
-   height: 82vh;
-}
-.co{
-
-   width: 100%;
-   height: 50vh;
-   margin-top: -55vh;
-}
-.c{
-
-   width: 100%;
-   height: 50vh;
-   margin-top: -32vh;
 }
 .meni{
    width: 100%;
@@ -28,94 +11,136 @@
    background-color: rgba(10, 102, 221, 0.281);
   
 }
+.hh1{
+   
+   margin-left: -41%;
+   margin-top: -9vh;
+   color: rgb(42, 118, 161);
+}
+
+.logo{
+  margin-top: -1vh;
+   width: 10%;
+   height: 10vh;
+ 
+}
+.logoo{
+   width: inherit;
+   height: 40vh;
+   margin-top: -2vh;
+  
+ 
+}
+.ll{
+   font-size: 78%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   width: 35vw;
+   height: 55vh;
+   margin-top: -13vh;
+   position: absolute;
+   margin-left: 55vw;
+   filter: drop-shadow( 0px 15px 10px rgb(6, 7, 8));
+}
+.ll h1{
+margin-top: -10vh; 
+}
+
+.col{
+  margin-top: 10ch;
+   width: 100%;
+   height: 82vh;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 .im1 h1{
-   font-size: 70%;
+   font-size: 80%;
    margin-top: -2px;
 }
 .im2 h1{
-   font-size: 70%;
+   font-size: 80%;
    margin-top: -2px;
 }
 .im3 h1{
-   font-size: 70%;
+   font-size: 80%;
    margin-top: -2px;
 }
 .im4 h1{
-   font-size: 70%;
+   font-size: 80%;
    margin-top: -2px;
 }
 
 .im1{
-   background-color: rgba(10, 102, 221, 0.281);
-   width: 10vw;
-   height: 10vh;
+   
+   width: 20vw;
+   height: 20vh;
    position: absolute;
-   margin-top: 5vh;
-   margin-left: 10vw;
+   margin-top: -2vh;
+   margin-left: 5vw;
    border-radius: 5px;
 transition: 0.2s;
-filter: drop-shadow( 0px 0px 5px rgb(10, 101, 221));
+filter: drop-shadow( 0px 15px 10px rgb(6, 7, 8));
 }
 .im2{
-   background-color: rgba(10, 102, 221, 0.281);
-   width: 10vw;
-   height: 10vh;
+   
+   width: 20vw;
+   height: 20vh;
    position: absolute;
-   margin-top: 5vh;
+   margin-top: -2vh;
    margin-left: 30vw;
    border-radius: 5px;
    transition: 0.2s;
-   filter: drop-shadow( 0px 0px 5px rgb(10, 101, 221));
+   filter: drop-shadow( 0px 15px 10px rgb(6, 7, 8));
 
 }
 .im3{
-   background-color:  rgba(10, 102, 221, 0.281);
-   width: 10vw;
-   height: 10vh;
+
+   width: 20vw;
+   height: 20vh;
    position: absolute;
-   margin-top: 5vh;
-   margin-left: 50vw;
+   margin-top: 35vh;
+   margin-left: 5vw;
    border-radius: 5px;
    transition: 0.2s;
-   filter: drop-shadow( 0px 0px 5px rgb(10, 101, 221));
+   filter: drop-shadow( 0px 15px 10px rgb(6, 7, 8));
 
 }
 .im4{
-   background-color:  rgba(10, 102, 221, 0.281);
-   width: 10vw;
-   height: 10vh;
+ 
+   width: 20vw;
+   height: 20vh;
    position: absolute;
-   margin-top: 5vh;
-   margin-left: 70vw;
+   margin-top: 35vh;
+   margin-left: 30vw;
    border-radius: 5px;
    transition: 0.2s;
-   filter: drop-shadow( 0px 0px 5px rgb(10, 101, 221));
+   filter: drop-shadow( 0px 15px 10px rgb(6, 7, 8));
 }
 .im1:hover{
-   margin-top: 2vh;
-margin-left: 8vw;
-   width:15vw ;
-   height:15vh ;
+   margin-top: -3vh;
+margin-left: 4vw;
+   width:22vw ;
+   height:22vh ;
 
 }
 .im2:hover{
-   margin-top: 2vh;
-margin-left: 28vw;
-   width:15vw ;
-   height:15vh ;
+   margin-top: -3vh;
+margin-left: 30vw;
+   width:22vw ;
+   height:22vh ;
 }
 .im3:hover{
-   margin-top: 2vh;
-margin-left: 48vw;
-   width:15vw ;
-   height:15vh ;
+   margin-top: 34vh;
+margin-left: 4vw;
+   width:22vw ;
+   height:22vh ;
 }
 .im4:hover{
-   margin-top: 2vh;
-margin-left: 68vw;
-   width:15vw ;
-   height:15vh ;
+   margin-top: 34vh;
+margin-left: 30vw;
+   width:22vw ;
+   height:22vh ;
 }
 
 img{
@@ -125,7 +150,7 @@ img{
 }
 @media(max-width:600px){
    .im1{
-       background-color: antiquewhite;
+      filter: drop-shadow( 0px 0px 5px rgb(6, 7, 8));
        width: 30vw;
        height: 30vh;
        position: absolute;
@@ -136,7 +161,7 @@ img{
    font-size: 70%;
    }
    .im2{
-       background-color: antiquewhite;
+      filter: drop-shadow( 0px 0px 5px rgb(6, 7, 8));
        width: 30vw;
        height: 30vh;
        position: absolute;
@@ -148,7 +173,7 @@ img{
    
    }
    .im3{
-       background-color: antiquewhite;
+      filter: drop-shadow( 0px 0px 5px rgb(6, 7, 8));
        width: 30vw;
        height: 30vh;
        position: absolute;
@@ -160,7 +185,7 @@ img{
    
    }
    .im4{
-       background-color: antiquewhite;
+      filter: drop-shadow( 0px 0px 5px rgb(6, 7, 8));
        width: 30vw;
        height: 30vh;
        position: absolute;
@@ -195,9 +220,17 @@ img{
        height:33vh ;
    }
    .col{
-  
+  margin-top: 55vh;
        width: 100%;
        height: 81vh;
 
        }  
+       .ll{
+         font-size: 57%;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         width: 90%;
+         height: 55vh;
+         margin-top: -60vh;
+         margin-left: 1vw;
+      }
 }
